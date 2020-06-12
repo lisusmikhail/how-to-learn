@@ -293,9 +293,13 @@ div, h1, h2, h3, p, section, a, img, ul {
   justify-content: space-between;
 }
 
-.footer__columns_content_copyright {
+.footer__column {
   display: flex;
   flex-direction: column;
+
+}
+
+.footer__column_content_copyright {
   justify-content: space-between;
   flex-basis: 711px;
 }
@@ -312,9 +316,7 @@ div, h1, h2, h3, p, section, a, img, ul {
   line-height: 25px;
 }
 
-.footer__columns_content_info {
-  display: flex;
-  flex-direction: column;
+.footer__column_content_info {
   justify-content: flex-start;
   color: #fff;
 }
@@ -340,9 +342,7 @@ div, h1, h2, h3, p, section, a, img, ul {
   line-height: 30px;
 }
 
-.footer__columns_content_social {
-  display: flex;
-  flex-direction: column;
+.footer__column_content_social {
   justify-content: flex-start;
   color: #fff;
 }
